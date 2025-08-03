@@ -1,16 +1,22 @@
-# formulario_02_08
+# Formulário Flutter - Validação de Chamada
 
-A new Flutter project.
+Este projeto foi desenvolvido como **atividade acadêmica** para fins de **validação de chamada** na disciplina de Desenvolvimento de Software para Dispositivos Móveis.  
 
-## Getting Started
+O aplicativo consiste em um **formulário simples** com validações específicas para cadastro de usuários, utilizando apenas recursos nativos do Flutter, sem pacotes externos obrigatórios.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Campo de **Nome Completo** (TextField)  
+- Campo de **Data de Nascimento** com seletor de data (DatePicker nativo do Flutter)  
+- Campo de **Sexo** com opções em **Dropdown** (Homem / Mulher)  
+- **Validação de idade mínima de 18 anos**  
+- Exibição de **mensagens de feedback** ao usuário via `SnackBar`  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Flutter** (SDK)  
+- **Dart** (linguagem de programação)  
